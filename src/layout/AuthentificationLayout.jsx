@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import style from '../pages/Auth.module.css';
+import style from '../pages/Registration.module.css';
 import { useEffect, useState } from 'react';
 import logo from '../assets/img/logo.png';
 import { BsFacebook } from "react-icons/bs";
