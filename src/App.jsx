@@ -4,6 +4,8 @@ import { NotFound } from './pages/NotFound';
 import { Start } from './pages/Start';
 import { Registration } from './pages/Registration';
 import { Login } from './pages/Login';
+import { AccountLayout } from './layout/AccountLayout';
+import { AuthLayout } from './layout/AuthentificationLayout';
 
 function App() {
   return (
