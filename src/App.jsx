@@ -3,6 +3,7 @@ import './App.css';
 import { NotFound } from './pages/NotFound';
 import { Start } from './pages/Start';
 import { Registration } from './pages/Registration';
+import { Login } from './pages/Login';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path='/' index element={<Start />} />
         <Route path='/Registration' element={<Registration />} />
+        <Route path='/Login' element={<Login />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

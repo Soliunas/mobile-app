@@ -17,10 +17,13 @@
 }
 
 .form {
+    border-style: dashed;
+    padding: 15px;
+    margin: 15px;
 
 }
 
 .links > button {
     color: rgb(163, 8, 12)
-    
+
 }
