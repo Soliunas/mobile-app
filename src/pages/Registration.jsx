@@ -16,10 +16,10 @@ export function Registration() {
             </form>
             <p>Or sign in with...</p>
             <div className={style.links}>
-                <button><BsFacebook size='50px' color='fff'/></button>
-                <button><SiGmail size='50px' color='fff'/></button>
-                <button><BsInstagram size='50px' color='fff'/></button>
-                <button><BsTwitter size='50px' color='fff'/></button>
+                <button><BsFacebook size='50px'/></button>
+                <button><SiGmail size='50px'/></button>
+                <button><BsInstagram size='50px'/></button>
+                <button><BsTwitter size='50px'/></button>
             </div>
             <p>Already have an account? <Link to='/login'>Log in</Link></p>
             <Link to='/' className={style.button}>Go home</Link>
