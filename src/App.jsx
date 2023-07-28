@@ -4,20 +4,14 @@ import { NotFound } from './pages/NotFound';
 import { Start } from './pages/Start';
 import { Registration } from './pages/Registration';
 import { Login } from './pages/Login';
-import { AccountLayout } from './layout/AccountLayout';
-import { AuthLayout } from './layout/AuthentificationLayout';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path='/' index element={<Start />} />
-
-        <Route Component={AuthLayout}>
         <Route path='/Registration' element={<Registration />} />
         <Route path='/Login' element={<Login />} />
-        </Route>
-
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
