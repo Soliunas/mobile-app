@@ -12,8 +12,12 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' index element={<Start />} />
+
+        <Route Component={AuthLayout}>
         <Route path='/Registration' element={<Registration />} />
         <Route path='/Login' element={<Login />} />
+        </Route>
+
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
