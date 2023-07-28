@@ -1,13 +1,16 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import { NotFound } from './pages/NotFound';
 import { Start } from './pages/Start';
 
 function App() {
   return (
-    <div className="App">
-      <Start />
-      <NotFound />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' index element={<Start />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
