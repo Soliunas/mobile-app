@@ -2,13 +2,13 @@ import style from './Start.module.css';
 import logo from '../assets/img/logo.png';
 
 
-export function Start() {
+export function NotFound() {
     return (
         <div className={style.start}>
             <img class Name={style.logo} src={logo} alt='KFC' />
-            <h1 className={style.h1}>Welcome</h1>
-            <p>Click below to order some chicken</p>
-            <a className={style.button} href='/'>Take my money</a>
+            <h1 className={style.h1}>404</h1>
+            <p>Chicken was not found</p>
+            <a className={style.button} href='/'>Go home</a>
         </div>
     )
 }
