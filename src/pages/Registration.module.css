@@ -1,0 +1,17 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+.h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    background-color: rgb(163, 8, 12);
+    text-decoration: none;
+    color: white;
+    width: 300px;
+}
